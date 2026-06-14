@@ -136,6 +136,10 @@ Immediately after merging a PR into `main`, the Tech Lead will tag the release i
 git tag -a RD.00.01.00 -m "Release RD.00.01.00: Initial Authentication Module"
 git push origin RD.00.01.00
 ```
+### Publishing the GitHub Release
+Once the tag is pushed, the PM will navigate to the repository on GitHub and publish the release documentation. You **must** use our **[Release Notes Template](RELEASE_NOTES_TEMPLATE.md)** to format the announcement.
+
+> **⚠️ Note:** For all milestone releases prior to our official `RD.01.00.00` launch, the PM must ensure the **"Set as a pre-release"** box is checked on GitHub.
 
 ---
 
